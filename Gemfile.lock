@@ -1,0 +1,29 @@
+PATH
+  remote: .
+  specs:
+    microservice (0.1.0)
+      grpc
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    google-protobuf (3.12.0.rc.2)
+    googleapis-common-protos-types (1.0.5)
+      google-protobuf (~> 3.11)
+    grpc (1.28.0)
+      google-protobuf (~> 3.11)
+      googleapis-common-protos-types (~> 1.0)
+    minitest (5.14.0)
+    rake (12.3.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  google-protobuf (~> 3.12.0.rc.1)
+  microservice!
+  minitest (~> 5.0)
+  rake (~> 12.0)
+
+BUNDLED WITH
+   2.1.4
